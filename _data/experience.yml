@@ -1,0 +1,86 @@
+# Jobs
+# Tenable
+- company: Tenable
+  position: Senior Software Engineer / Tech Lead
+  duration: Nov, 2018 &mdash; Present
+  summary: >
+   As an engineer on the Platform Engineering team, I work on the core frameworks and services powering Tenable's cloud offering. Recently selected as Tech Lead for the Identity team, reponsible for IAM initiatives.
+   <ul class="resume-item-list">
+   <li>Improve and maintain microservices and frameworks written in Groovy, Java, Kotlin, and Node</li>
+   <li>Decomposing monolithic application and data stores</li>
+   <li>Designing a new RBAC system</li>
+   </ul>
+
+# Skyward
+- company: Skyward, a Verizon company
+  position: Lead Java Engineer
+  duration:  Nov 2017 &mdash; Nov 2018
+  summary: >
+   Skyward builds software to manage commercial UAV (drone) operations. I was hired to lead the development team in adopting Agile practices, 
+   refactor the legacy codebase to enable faster deployment, and to mentor junior developers.
+   <ul class="resume-item-list">
+   <li>Refactored airspace generation software for modularity, increased testability, enabling zero-downtime deployments</li>
+   <li>Created CI pipelines, containerized services and started using Kubernetes for deployment</li>
+   <li>Improved API integration with FAA and other parties</li>
+   </ul>
+  
+
+# Jama
+- company: Jama Software
+  position: Technical Lead
+  duration:   Oct 2011  &mdash; Feb 2017
+  summary: >
+   <ul class="resume-item-list">
+   <li>Leading the team migrating Jama from a monolithic Java webapp to a SOA – including evaluating and designing service frameworks, building services, and developing a Docker-based deployment model for SaaS and on-premises installations. </li>
+   <li>Developing Jama’s first analytics product – data collection endpoints, ETL into ElasticSearch, and visualization with Kibana</li>
+   <li>Designing a new technical hiring flow for Jama, resulting in a more efficient and consistent interview process, and better quality hires.</li>
+   <li>Building multiple integrations between Jama and other products, using REST/SOAP APIs and custom libraries</li>
+   </ul>
+
+# Agilivant   
+- company: Agilivant
+  position: Architect (contract)
+  duration: Sep 2010 &mdash; Aug 2011
+  summary: >
+   First technical hire in this financial products start-up. Advising the founders on technology & platform strategy. Establishing development practices for technical hires. Creating hybrid cloud infrastructure with AWS for development and deployment. Implementing proof-of-concept applications. Hiring and leading technical teams.
+   <ul class="resume-item-list">
+   <li>Selected and configured source control, continuous integration and collaboration environments for development team</li>
+   <li>Implemented portions of debit card platform including card ordering and account management system, CSR functionality,  services layer, IVR & SMS integration, batch processing of ISO 8583 transaction</li>
+   </ul> 
+
+# CSI
+- company: Collaborative Software Initiative
+  position: Core Developer
+  duration: Jan 2010 &mdash; Aug 2010
+  summary: >
+    CSI builds and deploys enterprise software products using a unique collaborative approach and open source technologies.
+    <ul class="resume-item-list">
+    <li>Inno360: building an open innovation platform for organizations to manage their innovation ecosystem</li>
+    <li>TriSano: a Ruby on Rails open source surveillance and outbreak management application for public health   </li>
+    </ul>     
+
+# Liberty Mutual
+- company: Liberty Mutual Insurance Group
+  position: Technologist
+  duration: Apr 2007 &mdash; Jan 2010
+
+# ACS
+- company: ACS Government Solutions Group
+  position: Technical Architect
+  duration: Oct 2002 &mdash; Apr 2007
+
+# AAMC  
+- company: Association of American Medical Colleges
+  position: Systems Developer – Enterprise Apps
+  duration: May 2001 &mdash; Oct 2002
+
+# WebMD  
+- company: WebMD Corporation
+  position: Project Lead
+  duration: Jan 1999 &mdash; Jan 2001
+
+# SHN
+- company: Sapient Health Network (acquired by WebMD)
+  position: Senior Software Engineer
+  duration: Nov 1996 &mdash; Jan 1999  
+

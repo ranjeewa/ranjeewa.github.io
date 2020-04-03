@@ -1,0 +1,17 @@
+# Skills
+# Languages  
+- skill: Languages & Frameworks
+  description: Java, Groovy, Kotlin, Python, Ruby, Rails, Spring, Dropwizard  
+
+# Databases
+- skill: Databases
+  description: Relational (Postgres, MySQL) & NoSQL (Cassandra, DynamoDB, Elastic)
+
+# Messaging
+- skill: Messaging
+  description: ActiveMQ, Kafka
+
+# Testing
+- skill: Testing
+  description: JUnit, TestNG, Spock, Selenium
+
