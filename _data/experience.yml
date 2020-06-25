@@ -6,9 +6,9 @@
   summary: >
    As an engineer on the Platform Engineering team, I work on the core frameworks and services powering Tenable's cloud offering. Recently selected as Tech Lead for the Identity team, reponsible for IAM initiatives.
    <ul class="resume-item-list">
+   <li>Evaluating 3rd-party identity platforms, and migrating from homegrown authentication system to Okta</li>
+   <li>Designing and implementing a new RBAC system</li>
    <li>Improve and maintain microservices and frameworks written in Groovy, Java, Kotlin, and Node</li>
-   <li>Decomposing monolithic application and data stores</li>
-   <li>Designing a new RBAC system</li>
    </ul>
 
 # Skyward
