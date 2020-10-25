@@ -1,8 +1,15 @@
 # Jobs
+# Open Raven
+- company: Open Raven
+  position: Senior Software Engineer
+  duration: Jul 2020 &mdash; Present
+  summary: >
+  Open Raven is a cloud native data protection platform that prevents cloud security and privacy exposures.
+
 # Tenable
 - company: Tenable
   position: Senior Software Engineer / Tech Lead
-  duration: Nov, 2018 &mdash; Present
+  duration: Nov 2018 &mdash; Jul 2020
   summary: >
    As an engineer on the Platform Engineering team, I work on the core frameworks and services powering Tenable's cloud offering. Recently selected as Tech Lead for the Identity team, reponsible for IAM initiatives.
    <ul class="resume-item-list">
