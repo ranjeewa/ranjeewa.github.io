@@ -1,10 +1,26 @@
 # Jobs
+# Intellistack
+- company: Intellistack (fka Formstack)
+  position: Director of Engineering
+  duration: Jun 2024 - May 2026
+  summary: >
+   <ul class="resume-item-list">
+   <li>Led engineering teams across multiple continents and timezones, including engineering managers, contractors, and full-time employees, to build Intellistack Streamline, a no-code business process automation platform, from the ground up in 18 months</li>
+   <li>Owned the Data Fabric layer, connecting heterogeneous datasources (Postgres, EHR systems via FHIR, and others) through a unified connector API</li>
+   <li>Owned the Integrations layer, connecting multiple types of integrations (SMS, email, file upload and others) through an IPAAS</li>
+   <li>Responsible for hiring and performance management for my teams, including contractor management</li>
+   </ul>
+
 # Open Raven
 - company: Open Raven
-  position: Senior Software Engineer
-  duration: Jul 2020 &mdash; Present
+  position: Senior Software Engineer / Technical Director
+  duration: Jul 2020 - Jun 2024
   summary: >
-   Open Raven is a cloud native data protection platform that prevents cloud security and privacy exposures.
+   <ul class="resume-item-list">
+   <li>Built and led the scanning team responsible for the only data discovery solution covering file stores and data stores across AWS, GCP, and Azure, deployed directly within the customer's cloud environment</li>
+   <li>Grew from individual contributor to Technical Director, taking on team leadership, hiring, and architectural ownership as the company scaled</li>
+   <li>Delivered a scanning engine capable of identifying sensitive data at cloud scale, forming the core of Open Raven's DSPM (Data Security Posture Management) product</li>
+   </ul>
 
 # Tenable
 - company: Tenable
@@ -27,8 +43,8 @@
    refactor the legacy codebase to enable faster deployment, and to mentor junior developers.
    <ul class="resume-item-list">
    <li>Refactored airspace generation software for modularity, increased testability, enabling zero-downtime deployments</li>
+   <li>Built the industry's first certified LAANC integration with the FAA, collaborating directly with agency counterparts to develop and validate their API endpoints</li>
    <li>Created CI pipelines, containerized services and started using Kubernetes for deployment</li>
-   <li>Improved API integration with FAA and other parties</li>
    </ul>
   
 
