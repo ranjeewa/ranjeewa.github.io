@@ -1,0 +1,157 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Ranjeewa Weerasinghe",
+    "label": "Engineering Leader",
+    "email": "hello@ranjeewa.com",
+    "url": "https://ranjeewa.com",
+    "summary": "I'm a technology leader with a long view of systems, teams, and the trade-offs that shape both. I've spent over two decades working across startups and large organizations, helping build software that is resilient, understandable, and able to evolve without unnecessary friction. I value long-term professional relationships and often work with people I've partnered with before. I'm motivated by complex, worthwhile problems - and by building systems and teams that are healthy, resilient, and durable.",
+    "location": {
+      "city": "Bend",
+      "region": "OR",
+      "countryCode": "US"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "ranjeewa",
+        "url": "https://github.com/ranjeewa"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "ranjeewa",
+        "url": "https://www.linkedin.com/in/ranjeewa"
+      },
+      {
+        "network": "Twitter",
+        "username": "ranjeewa",
+        "url": "http://twitter.com/ranjeewa"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Intellistack (formerly Formstack)",
+      "position": "Director of Engineering",
+      "startDate": "2024-06",
+      "endDate": "2026-05",
+      "highlights": [
+        "Led engineering teams across multiple continents and timezones, including engineering managers, contractors, and full-time employees, to build Intellistack Streamline, a no-code business process automation platform, from the ground up in 18 months",
+        "Owned the Data Fabric layer, connecting heterogeneous datasources (Postgres, EHR systems via FHIR, and others) through a unified connector API",
+        "Owned the Integrations layer, connecting multiple types of integrations (SMS, email, file upload and others) through an IPAAS",
+        "Responsible for hiring and performance management for my teams, including contractor management"
+      ]
+    },
+    {
+      "name": "Open Raven",
+      "position": "Senior Software Engineer / Technical Director",
+      "startDate": "2020-07",
+      "endDate": "2024-06",
+      "highlights": [
+        "Built and led the scanning team responsible for the only data discovery solution covering file stores and data stores across AWS, GCP, and Azure, deployed directly within the customer's cloud environment",
+        "Grew from individual contributor to Technical Director, taking on team leadership, hiring, and architectural ownership as the company scaled",
+        "Delivered a scanning engine capable of identifying sensitive data at cloud scale, forming the core of Open Raven's DSPM (Data Security Posture Management) product"
+      ]
+    },
+    {
+      "name": "Tenable",
+      "position": "Senior Software Engineer / Tech Lead",
+      "startDate": "2018-11",
+      "endDate": "2020-07",
+      "summary": "As an engineer on the Platform Engineering team, worked on the core frameworks and services powering Tenable's cloud offering. Selected as Tech Lead for the Identity team, responsible for IAM initiatives.",
+      "highlights": [
+        "Evaluating 3rd-party identity platforms, and migrating from homegrown authentication system to Okta",
+        "Designing and implementing a new RBAC system",
+        "Improving and maintaining microservices and frameworks written in Groovy, Java, Kotlin, and Node"
+      ]
+    },
+    {
+      "name": "Skyward, a Verizon company",
+      "position": "Lead Java Engineer",
+      "startDate": "2017-11",
+      "endDate": "2018-11",
+      "summary": "Skyward builds software to manage commercial UAV (drone) operations. Hired to lead the development team in adopting Agile practices, refactor the legacy codebase to enable faster deployment, and to mentor junior developers.",
+      "highlights": [
+        "Refactored airspace generation software for modularity, increased testability, enabling zero-downtime deployments",
+        "Built the industry's first certified LAANC integration with the FAA, collaborating directly with agency counterparts to develop and validate their API endpoints",
+        "Created CI pipelines, containerized services and started using Kubernetes for deployment"
+      ]
+    },
+    {
+      "name": "Jama Software",
+      "position": "Technical Lead",
+      "startDate": "2011-10",
+      "endDate": "2017-02",
+      "highlights": [
+        "Led the team migrating Jama from a monolithic Java webapp to a SOA – including evaluating and designing service frameworks, building services, and developing a Docker-based deployment model for SaaS and on-premises installations",
+        "Developed Jama's first analytics product – data collection endpoints, ETL into ElasticSearch, and visualization with Kibana",
+        "Designed a new technical hiring flow for Jama, resulting in a more efficient and consistent interview process, and better quality hires",
+        "Built multiple integrations between Jama and other products, using REST/SOAP APIs and custom libraries"
+      ]
+    },
+    {
+      "name": "Agilivant",
+      "position": "Architect (contract)",
+      "startDate": "2010-09",
+      "endDate": "2011-08",
+      "summary": "First technical hire in this financial products start-up. Advising the founders on technology & platform strategy. Establishing development practices for technical hires. Creating hybrid cloud infrastructure with AWS for development and deployment.",
+      "highlights": [
+        "Selected and configured source control, continuous integration and collaboration environments for development team",
+        "Implemented portions of debit card platform including card ordering and account management system, CSR functionality, services layer, IVR & SMS integration, batch processing of ISO 8583 transactions"
+      ]
+    },
+    {
+      "name": "Collaborative Software Initiative",
+      "position": "Core Developer",
+      "startDate": "2010-01",
+      "endDate": "2010-08",
+      "summary": "CSI builds and deploys enterprise software products using a unique collaborative approach and open source technologies.",
+      "highlights": [
+        "Inno360: building an open innovation platform for organizations to manage their innovation ecosystem",
+        "TriSano: a Ruby on Rails open source surveillance and outbreak management application for public health"
+      ]
+    },
+    {
+      "name": "Liberty Mutual Insurance Group",
+      "position": "Technologist",
+      "startDate": "2007-04",
+      "endDate": "2010-01"
+    },
+    {
+      "name": "ACS Government Solutions Group",
+      "position": "Technical Architect",
+      "startDate": "2002-10",
+      "endDate": "2007-04"
+    },
+    {
+      "name": "Association of American Medical Colleges",
+      "position": "Systems Developer – Enterprise Apps",
+      "startDate": "2001-05",
+      "endDate": "2002-10"
+    },
+    {
+      "name": "WebMD Corporation",
+      "position": "Project Lead",
+      "startDate": "1999-01",
+      "endDate": "2001-01"
+    },
+    {
+      "name": "Sapient Health Network (acquired by WebMD)",
+      "position": "Senior Software Engineer",
+      "startDate": "1996-11",
+      "endDate": "1999-01"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Purdue University",
+      "studyType": "MS",
+      "area": "Computer Science"
+    },
+    {
+      "institution": "University of Houston, Clear Lake",
+      "studyType": "BS",
+      "area": "Computer Science"
+    }
+  ]
+}
