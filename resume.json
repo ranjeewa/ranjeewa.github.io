@@ -147,12 +147,14 @@
     {
       "institution": "Purdue University",
       "studyType": "MS",
-      "area": "Computer Science"
+      "area": "Computer Science",
+      "endDate": "1996"
     },
     {
       "institution": "University of Houston, Clear Lake",
       "studyType": "BS",
-      "area": "Computer Science"
+      "area": "Computer Science",
+      "endDate": "1993"
     }
   ]
 }
