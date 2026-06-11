@@ -39,7 +39,7 @@
       ]
     },
     {
-      "name": "Open Raven",
+      "name": "OpenRaven (acquired by Intellistack)",
       "position": "Senior Software Engineer / Technical Director",
       "startDate": "2020-07",
       "endDate": "2024-06",
@@ -136,6 +136,24 @@
       "position": "Senior Software Engineer",
       "startDate": "1996-11",
       "endDate": "1999-01"
+    }
+  ],
+  "skills": [
+    {
+      "name": "AI",
+      "keywords": ["Spring AI", "Codex", "Claude", "Cursor"]
+    },
+    {
+      "name": "Backend",
+      "keywords": ["Java / JVM languages", "Spring", "RDBMS (PostgreSQL, MySQL)", "Redis", "ElasticSearch"]
+    },
+    {
+      "name": "Cloud & DevOps",
+      "keywords": ["AWS", "Google Cloud Platform (GCP)", "Kubernetes", "Docker", "Serverless", "CI/CD Pipelines"]
+    },
+    {
+      "name": "Architecture & Tooling",
+      "keywords": ["System Design", "API Design", "Microservices"]
     }
   ],
   "education": [
