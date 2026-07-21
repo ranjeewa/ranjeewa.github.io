@@ -6,7 +6,7 @@
     "image": "https://raw.githubusercontent.com/ranjeewa/ranjeewa.github.io/master/images/Headshot_cropped.jpg",
     "email": "hello@ranjeewa.com",
     "url": "https://ranjeewa.com",
-    "summary": "I'm a technology leader with a long view of systems, teams, and the trade-offs that shape both. I've spent over two decades working across startups and large organizations, helping build software that is resilient, understandable, and able to evolve without unnecessary friction. I value long-term professional relationships and often work with people I've partnered with before. I'm motivated by complex, worthwhile problems - and by building systems and teams that are healthy, resilient, and durable.",
+    "summary": "I'm an engineering leader who has built things from scratch as both an individual contributor and as a leader brought in to stand up a team and its architecture from day one. I've done this across early-stage startups, not-for-profit organizations, and Fortune 100 companies, leading distributed teams of full-time engineers and contractors across continents and timezones. I'm a proponent of lean and agile methodologies and test-driven development, and I do my best work in small, highly-collaborative teams that ship frequently.",
     "location": {
       "city": "Bend",
       "region": "OR",
@@ -32,10 +32,10 @@
       "startDate": "2024-06",
       "endDate": "2026-05",
       "highlights": [
-        "Led engineering teams across multiple continents and timezones, including engineering managers, contractors, and full-time employees, to build Intellistack Streamline, a no-code business process automation platform, from the ground up in 18 months",
-        "Owned the Data Fabric layer, connecting heterogeneous datasources (Postgres, EHR systems via FHIR, and others) through a unified connector API",
-        "Owned the Integrations layer, connecting multiple types of integrations (SMS, email, file upload and others) through an IPAAS",
-        "Responsible for hiring and performance management for my teams, including contractor management"
+        "Directed engineering for Intellistack Streamline, a no-code business process automation platform built from the ground up in 18 months",
+        "Led the Data Fabric team, integrating 12 data source types such as RDS, API-driven sources, and FHIR-based EHR systems into a common format for the platform",
+        "Led the Integrations team, connecting 15+ systems via an iPaaS for file, email, and event workflows",
+        "Managed 5 to 12 people, including other engineering managers, across a distributed mix of full-time employees and contractors"
       ]
     },
     {
@@ -44,9 +44,11 @@
       "startDate": "2020-07",
       "endDate": "2024-06",
       "highlights": [
-        "Built and led the scanning team responsible for the only data discovery solution covering file stores and data stores across AWS, GCP, and Azure, deployed directly within the customer's cloud environment",
-        "Grew from individual contributor to Technical Director, taking on team leadership, hiring, and architectural ownership as the company scaled",
-        "Delivered a scanning engine capable of identifying sensitive data at cloud scale, forming the core of Open Raven's DSPM (Data Security Posture Management) product"
+        "Wrote Open Raven's first data scanner and grew it into a dedicated scanning team, helping establish the DSPM (Data Security Posture Management) product category",
+        "Built the only scanning solution for file and data stores across AWS, GCP, and Azure that ran entirely within the customer's own environment",
+        "Delivered a scanning engine capable of identifying sensitive data at cloud scale, forming the core of Open Raven's DSPM product",
+        "Owned technical architecture, project management, and scrum master responsibilities for a team spanning the EU and US, in addition to writing code",
+        "Grew from individual contributor to Technical Director, taking on team leadership, hiring, and architectural ownership as the company scaled"
       ]
     },
     {
@@ -54,7 +56,7 @@
       "position": "Senior Software Engineer / Tech Lead",
       "startDate": "2018-11",
       "endDate": "2020-07",
-      "summary": "As an engineer on the Platform Engineering team, worked on the core frameworks and services powering Tenable's cloud offering. Selected as Tech Lead for the Identity team, responsible for IAM initiatives.",
+      "summary": "As an engineer on the Platform Engineering team, worked on the core frameworks and services powering Tenable's cloud offering.",
       "highlights": [
         "Evaluating 3rd-party identity platforms, and migrating from homegrown authentication system to Okta",
         "Designing and implementing a new RBAC system",
