@@ -14,11 +14,6 @@
     },
     "profiles": [
       {
-        "network": "GitHub",
-        "username": "ranjeewa",
-        "url": "https://github.com/ranjeewa"
-      },
-      {
         "network": "LinkedIn",
         "username": "ranjeewa",
         "url": "https://www.linkedin.com/in/ranjeewa"
@@ -33,7 +28,7 @@
       "endDate": "2026-05",
       "highlights": [
         "Directed engineering for Intellistack Streamline, a no-code business process automation platform built from the ground up in 18 months",
-        "Led the Data Fabric team, integrating 12 data source types such as RDS, API-driven sources, and FHIR-based EHR systems into a common format for the platform",
+        "Led the Data Fabric team, integrating 12 data source types such as RDS, API-driven, and FHIR-based EHR systems into a common format for the platform",
         "Led the Integrations team, connecting 15+ systems via an iPaaS for file, email, and event workflows",
         "Managed 5 to 12 people, including other engineering managers, across a distributed mix of full-time employees and contractors"
       ]
