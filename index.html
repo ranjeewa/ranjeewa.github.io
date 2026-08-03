@@ -1,780 +1,203 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en-gb">
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Resume of Ranjeewa Weerasinghe</title>
-    <!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"> -->
-    <!-- <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> -->
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" rel="stylesheet">
-    <style type="text/css">
-    @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800);
-@charset "utf-8";
-@-webkit-viewport   { width: device-width; }
-@-moz-viewport      { width: device-width; }
-@-ms-viewport       { width: device-width; }
-@-o-viewport        { width: device-width; }
-@viewport           { width: device-width; }
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Ranjeewa Weerasinghe</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="./override.css">
+    <style>
+      /* Variables (light) */
+:root {
+  --color-text: #40484f; --color-text-secondary: #606d76; --color-text-muted: #757575;
+  --color-heading: #202931; --color-date: #202931; --color-accent: #ff6d1f;
+  --color-link: #0095ff; --color-link-hover: #0c65a5;
+  --color-background: var(--color-section-title-bg); --color-background-alt: #f1f8ff;
+  --color-border: #ccc; --color-border-light: #ddd;
+  --color-keyword-text: #2c5777; --color-keyword-bg: #dfeaf1; --color-keyword-border: #dfeaf1;
+  --color-reference-border: #ff6d1f;
+  --color-bar-beginner: #eb5f51; --color-bar-intermediate: #ffdf1f;
+  --color-bar-advanced: #5cb85c; --color-bar-master: #59c596;
+  --color-section-title-bg: #fff;
+  --font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 
-body{
-  font-family: 'Open Sans', Arial, Tahoma;
-  font-weight: 400;
-  color: #363636;
-  background: #334960;
-}
-blockquote {
-  font-size: 1em;
-}
+  /* Type scale — 14px base, ~1.14 ratio (subtle, professional) */
+  --fs-name: 2.143rem;       /* 30px */
+  --fs-label: 1.429rem;      /* 20px */
+  --fs-title: 1.143rem;      /* 16px */
+  --fs-card: 1.071rem;       /* 15px */
+  --fs-body: 1rem;           /* 14px */
+  --fs-meta: 0.929rem;       /* 13px (date, location, keywords) */
+  --fs-section: 0.857rem;    /* 12px caps with tracking */
+  --fs-fine: 0.786rem;       /* 11px */
 
-.container{
-  margin-top: 80px;
-  margin-bottom: 15px;
-  background: #fff;
-}
+  /* Line heights — multiples of 4 against base */
+  --lh-tight: 1.15;
+  --lh-snug: 1.3;
+  --lh-base: 1.5;
 
-#photo-header{
-  margin-top: -75px;
-}
-#photo{
-  width: 160px;
-  height: 160px;
-  border-radius: 50%;
-  overflow: hidden;
-  padding: 5px;
-  background: #334960;
-  display: inline-block;
-}
-#photo img{
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-}
-#text-header h1{
-  margin: 0;
-  padding: 0;
-  font-size: 1.5em;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: -1px;
-}
-#text-header h1::first-line{
-  font-size: 1.5em;
-  font-weight: 800;
-  line-height: 1.5em;
-}
-#text-header h1 span{
-  color: #334960;
-  opacity: 0.7;
-}
-#text-header h1 sup{
-  opacity: 0.5;
-}
-#text-header:after{
-  width: 100%;
-  height: 3px;
-  border-bottom: 1px solid #ddd;
-  margin-top: 15px;
-  content: '';
-  display: block;
+  /* Spacing — 8pt grid */
+  --sp-1: 0.286rem;  /*  4px */
+  --sp-2: 0.571rem;  /*  8px */
+  --sp-3: 0.857rem;  /* 12px */
+  --sp-4: 1.143rem;  /* 16px */
+  --sp-5: 1.714rem;  /* 24px */
+  --sp-6: 2.286rem;  /* 32px */
 }
 
-.box{
-  padding-bottom: 10px;
-  margin-bottom: 25px;
-}
-.box h2{
-  color: #227c74;
-  font-size: 1.5em;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-
-#awards,
-#education{
-  margin-top: 20px;
-  margin-bottom: 0;
-  position: relative;
-  padding: 1em 0;
-  list-style: none;
-}
-#awards:before,
-#education:before {
-  width: 5px;
-  height: 100%;
-  position: absolute;
-  left: 35px;
-  top: 0;
-  content: ' ';
-  display: block;
-  background: #32475c;
-  background: -moz-linear-gradient(top,  #ffffff 0%, #32475c 7%, #32475c 89%, #ffffff 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(7%,#32475c), color-stop(89%,#32475c), color-stop(100%,#ffffff));
-  background: -webkit-linear-gradient(top,  #ffffff 0%,#32475c 7%,#32475c 89%,#ffffff 100%);
-  background: -o-linear-gradient(top,  #ffffff 0%,#32475c 7%,#32475c 89%,#ffffff 100%);
-  background: -ms-linear-gradient(top,  #ffffff 0%,#32475c 7%,#32475c 89%,#ffffff 100%);
-  background: linear-gradient(to bottom,  #ffffff 0%,#32475c 7%,#32475c 89%,#ffffff 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 );
-}
-#awards li,
-#education li{
-  width: 100%;
-  z-index: 2;
-  position: relative;
-  float: left;
-}
-#awards .year,
-#education .year{
-  width: 14%;
-  background: #fff;
-  padding: 10px;
-  font-weight: 700;
-  display: inline-block;
-}
-#awards .description,
-#education .description{
-  width: 83%;
-  display: inline-block;
-  background: #eee;
-  margin-bottom: 10px;
-  position: relative;
-  padding: 10px;
-  border-bottom: 1px solid #ccc;
-  border-right: 1px solid #ccc;
-}
-#awards .description:after,
-#education .description:after {
-  content: '';
-  position: absolute;
-  top: 15px;
-  right: 0;
-  left: -16px;
-  height: 0;
-  width: 0;
-  border: solid transparent;
-  border-right-color: #eee;
-  border-width: 8px;
-  pointer-events: none;
-}
-#awards .description h3,
-#education .description h3{
-  font-size: 1.2em;
-  margin: 0;
-  padding: 0;
-  font-weight: 700;
-}
-#awards .description p,
-#education .description p{
-  margin-top: 5px;
-  padding: 0;
+/* Variables (dark) */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-text: #d4d4d8; --color-text-secondary: #a1a1aa; --color-text-muted: #9ca3af;
+    --color-heading: #e4e4e7; --color-date: #ffffff; --color-accent: #fb923c;
+    --color-link: #60a5fa; --color-link-hover: #93c5fd;
+    --color-background: #18181b; --color-background-alt: #27272a;
+    --color-border: #3f3f46; --color-border-light: #3f3f46;
+    --color-keyword-text: #93c5fd; --color-keyword-bg: #1e3a5f; --color-keyword-border: #1e3a5f;
+    --color-reference-border: #fb923c;
+    --color-bar-beginner: #ef4444; --color-bar-intermediate: #eab308;
+    --color-bar-advanced: #22c55e; --color-bar-master: #34d399;
+    --color-section-title-bg: #18181b;
+    --font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  }
 }
 
-.job{
-  margin-bottom: 15px;
-}
-.job .details {
-  margin-left: 3%;
-  width: 95%;
-  padding: 10px;
-  margin-bottom: 10px;
-  background: #eee;
-  border-bottom: 1px solid #ccc;
-  border-right: 1px solid #ccc;
-}
-.job .where{
-  font-size: 1.2em;
-  font-weight: bold;
-}
-.job .year{
-  opacity: 0.7;
-}
-.job .profession{
-  font-size: 1.2em;
-  font-weight: bold;
-}
-.job .description{
-  line-height: 1.5em;
-}
-.job .highlights{
-  padding: 5px 0;
-  font-weight: bold;
-}
-.job .job-details {
-  padding-left: 5%;
-  width: 100%;
-}
-.publication {
-  margin-bottom: 0;
-}
-.publication .name{
-  font-size: 1em;
-  font-weight: bold;
-}
-.publication .year{
-    opacity: 0.7;
-}
-.publication p{
-  margin: 0;
-  padding-top: 10px;
+/* Minimal reset */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+img { max-width: 100%; display: block; }
+a { color: inherit; text-decoration: none; }
+ul, ol { list-style: none; }
+
+/* Base typography */
+body, html { font-family: var(--font-family); font-size: 14px; color: var(--color-text); background-color: var(--color-background); font-weight: 400; line-height: var(--lh-base); text-align: left; }
+p { display: block; }
+a { color: var(--color-link); text-decoration: none; }
+a:hover { color: var(--color-link-hover); text-decoration: underline; }
+li { list-style-type: square; list-style-position: outside; margin-left: 1.3em; }
+h1 { font-size: var(--fs-name); line-height: var(--lh-tight); }
+h2 { font-size: var(--fs-label); line-height: var(--lh-snug); }
+h3 { font-size: var(--fs-card); line-height: var(--lh-snug); }
+em { color: var(--color-text-muted); }
+strong { font-weight: 700; }
+
+/* Accessibility */
+.skip-to-content { position: absolute; left: -9999px; top: 0; z-index: 999; padding: 0.5em 1em; background: var(--color-accent); color: #fff; font-weight: 600; text-decoration: none; }
+.skip-to-content:focus { left: 0; }
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
+a:focus-visible { outline: 2px solid var(--color-accent); outline-offset: 2px; border-radius: 2px; }
+
+/* Print */
+@media print {
+  @page { margin: 1.4cm 1.4cm; }
+  body { line-height: var(--lh-snug); }
+  ul { margin-top: var(--sp-2); }
+  ul, li { padding: 0; }
 }
 
-.contact-item{
-  width: 100%;
-  float: left;
-}
-.contact-item .icon{
-  padding: 10px;
-  border-right: 1px solid #ccc;
-  border-bottom: 1px solid #ccc;
-  color: #32475c;
-  background: #eee;
-}
-.contact-item:last-child .icon{
-  border-bottom: none;
-}
-.contact-item .title{
-  width: 80%;
-  width: calc(100% - 55px);
-  font-weight: 700;
-  opacity: 0.9;
-}
-.contact-item .title.only{
-  margin-top: 10px;
-}
-.contact-item .description{
-  width: 80%;
-  width: calc(100% - 55px);
-  color: #334960;
-}
+@media screen and (min-width: 1025px) { li { margin-left: 1.5em; } }
 
-.item-interests,
-.item-skills{
-  height: 30px;
-  color: #334960;
-  padding: 5px 10px;
-  margin-bottom: 5px;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  font-size: 1.1em;
-  font-weight: 600;
-}
-.interest,
-.skill{
-  color: #fff;
-  display: inline-block;
-  margin-right: 5px;
-  margin-bottom: 5px;
-  padding: 5px 10px;
-  background: #32475c;
-  position: relative;
-  font-size: .85em;
-}
-.skill-level {
-  background-color: #227c74;
-  border-radius: 4px;
-  color: #fff;
-  padding: 1px 8px;
-  font-size: .75em;
-  position: absolute;
-  margin: 1px 10px;
-}
-
-#language-skills .skill{
-  margin: 10px 0;
-  padding-bottom: 10px;
-  border-bottom: 1px solid #eee;
-}
+/* Timeline item dates — global so rules apply across scoped child components (DateRange, singleDate) */
+.timeline-item header .date { display: block; font-size: var(--fs-meta); padding: 0; color: var(--color-text-secondary); font-weight: 500; line-height: var(--lh-snug); letter-spacing: 0.02em; }
+@media screen and (max-width: 601px) { .timeline-item header .date { float: none; margin-top: var(--sp-1); } }
+@media screen and (min-width: 602px) { .timeline-item header .date { float: right; padding-top: 0.2em; } }
+@media print { .timeline-item header .date { float: right; padding-top: 0.2em; } }
 
     </style>
-    <style type="text/css" media="print">
-    body {
-  font-size: .95em;
-  -webkit-print-color-adjust: exact;
-}
+    <style id="svelte-rssu9l">.resume.svelte-rssu9l {padding:1.5rem;}
 
-a[href]:after {
-  content: none !important;
-}
+  @media print {.resume.svelte-rssu9l {margin:0.1em;padding:0.1em;-ms-word-wrap:break-word;word-wrap:break-word;line-height:1.25;}
+  }
 
-#photo{
-  display: none;
-}
+  @media screen and (max-width: 601px) {.resume.svelte-rssu9l {width:100%;padding:1rem;box-sizing:border-box;}
+  }
 
-.box {
-  margin-bottom: -10px;
-}
+  @media screen and (min-width: 602px) {.resume.svelte-rssu9l {width:80%;margin:0 auto;}
+  }
 
-blockquote,
-#education,
-#awards,
-.contact-item,
-.publication,
-.skills,
-.interests {
-  page-break-inside: avoid;
-}
+  @media screen and (min-width: 1025px) {.resume.svelte-rssu9l {width:820px;margin:2rem auto;}
+  }</style><style id="svelte-10f9ycp">.header.svelte-10f9ycp {margin-bottom:var(--sp-5);}.name.svelte-10f9ycp {font-size:var(--fs-name);font-weight:200;line-height:var(--lh-tight);letter-spacing:-0.015em;color:var(--color-heading);}.label.svelte-10f9ycp {color:var(--color-heading);font-size:var(--fs-label);font-weight:300;line-height:var(--lh-snug);margin-top:var(--sp-1);margin-bottom:var(--sp-3);}.location.svelte-10f9ycp {color:var(--color-text-secondary);margin-bottom:var(--sp-2);display:block;}.image.svelte-10f9ycp {width:11em;float:right;border-radius:4px;}.profiles.svelte-10f9ycp {display:flex;flex-flow:row wrap;justify-content:flex-start;margin-top:var(--sp-1);gap:var(--sp-1) 0;}.main-summary.svelte-10f9ycp {background:var(--color-background-alt);padding:var(--sp-4);line-height:var(--lh-base);}
 
-.col-sm-5{
-  width: 40%;
-  padding: 0 15px;
-}
+  /* p margin reset handled by summary wrapper */
 
-.col-sm-7{
-  width: 60%;
-  padding: 0 15px;
-}
+  @media print {.header.svelte-10f9ycp {margin-bottom:var(--sp-4);}.profiles.svelte-10f9ycp a:not(.hide-href-print)::after {content:" · " attr(href);font-size:var(--fs-fine);color:var(--color-text-muted);font-weight:400;margin-left:0.2em;}.profiles.svelte-10f9ycp .item {padding:0;}.main-summary.svelte-10f9ycp {padding:0;background:transparent;}
+  }
 
-.skills .col-sm-offset-1,
-.interests .col-sm-offset-1{
-  margin-top: -10px;
-  margin-bottom: 5px;
-}
+  @media screen and (max-width: 601px) {.header.svelte-10f9ycp .profiles:where(.svelte-10f9ycp), .header.svelte-10f9ycp .contact {flex-wrap:wrap;}.name.svelte-10f9ycp {font-size:1.857rem;}.label.svelte-10f9ycp {font-size:1.286rem;}.image.svelte-10f9ycp {float:none;display:block;margin:0 auto 1rem;width:8em;}
+  }</style><style id="svelte-121pvxs">.contact.svelte-121pvxs {display:flex;flex-flow:row wrap;justify-content:flex-start;margin-top:var(--sp-2);gap:0 var(--sp-4);}.contact-item.svelte-121pvxs {line-height:var(--lh-snug);}.icon.svelte-121pvxs {margin-right:0.4em;color:var(--color-text-secondary);}</style><style id="svelte-a76edc">.item.svelte-a76edc {padding:0;margin-right:var(--sp-4);line-height:var(--lh-snug);}.social.svelte-a76edc {font-size:1.1em;margin-right:0.4em;color:var(--brand-light);}
 
-#education {
-  margin: 0;
-  margin-bottom: -20px;
-}
-#awards:before,
-#education:before {
-  background: none;
-}
+  @media print {.social.svelte-a76edc {color:#828386;}.fa-stack-overflow::after {content:"";}
+  }
 
-#awards .description,
-#education .description,
-.job .details {
-  border: 1px solid #eee;
-}
-.publication,
-.publication .panel-heading,
-.publication .name{
-  margin: 0;
-  padding: 0 5px;
-  border: none;
-}
-.publication .panel-body {
-  padding: 0 10px;
-  margin: 0;
-}
+  @media (prefers-color-scheme: dark) {.social.svelte-a76edc {color:var(--brand-dark);}
+  }</style><style id="svelte-1lncexq">.section.svelte-1lncexq {margin-bottom:var(--sp-5);}header.svelte-1lncexq {position:relative;margin-bottom:var(--sp-3);}header.svelte-1lncexq::after {position:absolute;left:0;top:50%;height:1px;background:var(--color-border);content:"";width:100%;z-index:0;display:block;}.item-count.svelte-1lncexq {margin-left:0.5em;font-weight:500;opacity:0.65;}.section-title.svelte-1lncexq {position:relative;z-index:1;display:inline-block;background:var(--color-section-title-bg);padding-right:0.85em;color:var(--color-accent);text-transform:uppercase;font-weight:700;border:none;font-size:var(--fs-section);line-height:var(--lh-tight);letter-spacing:0.12em;}
 
-.badge {
-  margin: 0;
-}
+  @media print {.section.svelte-1lncexq {margin-bottom:var(--sp-4);padding:0;}header.svelte-1lncexq {margin-bottom:var(--sp-2);}header.svelte-1lncexq::after {background:#d8d8d8;height:0.5px;print-color-adjust:exact;-webkit-print-color-adjust:exact;}.location {padding-bottom:var(--sp-1);}.section.svelte-1lncexq > section > section {margin:var(--sp-3) 0;}.section.svelte-1lncexq > section > section:last-of-type {margin-bottom:0;}.item-count.svelte-1lncexq {display:none;}
+  }</style><style id="svelte-18p2gu6">.skills-grid.svelte-18p2gu6 {display:grid;grid-template-columns:repeat(3, minmax(0, 1fr));column-gap:var(--sp-5);row-gap:var(--sp-3);}.skill-item.svelte-18p2gu6 {padding:0;border-bottom:none;}.name.svelte-18p2gu6 {font-weight:700;font-size:var(--fs-card);line-height:var(--lh-snug);color:var(--color-heading);margin-bottom:var(--sp-1);}
 
-.list-group-item{
-  border: none;
-  margin: 0;
-  padding: 5px 15px;
-}
-.list-group-item:after{
-  content: '';
-  position: absolute;
-  top: 8px;
-  right: 0;
-  left: -1px;
-  height: 0;
-  width: 0;
-  border: solid transparent;
-  border-right-color: #999;
-  border-width: 4px;
-  pointer-events: none;
- }
+  @media print {.skills-grid.svelte-18p2gu6 {column-gap:var(--sp-4);row-gap:var(--sp-3);}.skills-grid.svelte-18p2gu6 .skill-item:where(.svelte-18p2gu6) {display:flex;flex-direction:column;margin:0;padding:0;}
+  }
 
-    </style>
+  @media screen and (max-width: 479px) {.skills-grid.svelte-18p2gu6 {grid-template-columns:1fr;}
+  }
+
+  @media screen and (min-width: 480px) and (max-width: 601px) {.skills-grid.svelte-18p2gu6 {grid-template-columns:repeat(2, minmax(0, 1fr));}
+  }</style><style id="svelte-1615qzb">ul.svelte-1615qzb {margin:var(--sp-2) 0 0 0;}li.svelte-1615qzb {display:inline-block;margin:2px 4px 2px 0;padding:2px 6px;font-size:var(--fs-fine);line-height:1.5;color:var(--color-keyword-text);background-color:var(--color-keyword-bg);border:0 solid var(--color-keyword-border);border-radius:3px;white-space:nowrap;}li.svelte-1615qzb:hover {background:var(--color-keyword-bg);}
+
+  @media print {ul.svelte-1615qzb {margin:var(--sp-2) 0 0 0;}li.svelte-1615qzb {margin:0;padding:0;font-size:var(--fs-meta);background:transparent;line-height:var(--lh-snug);}li.svelte-1615qzb::after {padding:0 0.4em;content:"·";color:var(--color-text-muted);}li.svelte-1615qzb:last-of-type::after {content:"";}.skills-grid li.svelte-1615qzb::after {padding:0 0.35em;content:"·";color:var(--color-text-muted);}.skills-grid li.svelte-1615qzb:last-of-type::after {content:"";}ul.svelte-1615qzb::before {font-size:var(--fs-body);font-weight:600;}ul.keywords.svelte-1615qzb::before {content:"Skills: ";font-size:var(--fs-body);}.skills-grid ul.svelte-1615qzb::before {content:none;}ul.courses.svelte-1615qzb::before {content:"Major courses: ";font-size:var(--fs-body);}.skills-grid .keywords.svelte-1615qzb {font-size:var(--fs-meta);margin:0;}
+  }</style><style id="svelte-g3qng">.timeline-item.svelte-g3qng {margin-top:var(--sp-4);}.timeline-item.svelte-g3qng:first-of-type {margin-top:0;}.position.svelte-g3qng,
+  .company.svelte-g3qng,
+  .organization.svelte-g3qng,
+  .institution.svelte-g3qng,
+  .date.svelte-g3qng,
+  .area.svelte-g3qng,
+  .studyType.svelte-g3qng,
+  .title.svelte-g3qng,
+  .awarder.svelte-g3qng,
+  .publisher.svelte-g3qng,
+  .issuer.svelte-g3qng {display:inline;}.position.svelte-g3qng,
+  .studyType.svelte-g3qng,
+  .area.svelte-g3qng,
+  .title.svelte-g3qng {font-weight:700;}.company.svelte-g3qng::before,
+  .institution.svelte-g3qng::before,
+  .organization.svelte-g3qng::before,
+  .awarder.svelte-g3qng::before {content:"at ";}.company.svelte-g3qng,
+  .institution.svelte-g3qng,
+  .organization.svelte-g3qng,
+  .awarder.svelte-g3qng {color:var(--color-text-secondary);font-weight:400;}.item.svelte-g3qng {overflow:hidden;}
+
+  /* p margin handled via inline styles in paragraphSplit */.clear.svelte-g3qng::after {content:"";display:table;clear:both;}.location.svelte-g3qng {display:block;margin-top:var(--sp-1);color:var(--color-text-secondary);font-weight:500;font-size:var(--fs-meta);line-height:var(--lh-snug);}.item.svelte-g3qng .summary:where(.svelte-g3qng) {margin-top:var(--sp-2);}header.svelte-g3qng {font-size:var(--fs-title);position:relative;line-height:var(--lh-snug);margin-bottom:0;}.header-left.svelte-g3qng .position:where(.svelte-g3qng) + .company:where(.svelte-g3qng)::before,
+  .header-left.svelte-g3qng .position:where(.svelte-g3qng) + .institution:where(.svelte-g3qng)::before,
+  .header-left.svelte-g3qng .position:where(.svelte-g3qng) + .organization:where(.svelte-g3qng)::before,
+  .header-left.svelte-g3qng .position:where(.svelte-g3qng) + .awarder:where(.svelte-g3qng)::before {content:"at ";}
+
+  @media print {.timeline-item.svelte-g3qng {margin-top:var(--sp-3);}.company.svelte-g3qng a:where(.svelte-g3qng) {color:var(--color-text);}.company.svelte-g3qng::before,
+    .institution.svelte-g3qng::before,
+    .organization.svelte-g3qng::before,
+    .awarder.svelte-g3qng::before {content:"at ";}.section p {margin:0;padding:0;}.fa-location-dot:before {padding-left:0.1em;}
+  }
+
+  @media screen and (max-width: 601px) {.section > section.svelte-g3qng > header:where(.svelte-g3qng) {font-size:1.071rem;}
+  }
+
+  @media screen and (min-width: 1025px) {.section > section.svelte-g3qng > header:where(.svelte-g3qng) .space-left:where(.svelte-g3qng) {opacity:1;cursor:pointer;}.section > section.svelte-g3qng:not(.main-summary) {margin-left:1.67rem;}.company.svelte-g3qng::before, .institution.svelte-g3qng::before, .organization.svelte-g3qng::before, .awarder.svelte-g3qng::before {content:"| ";}.header-left.svelte-g3qng {float:left;width:70%;word-break:normal;}.display.svelte-g3qng {display:none;}.display.svelte-g3qng:not(.none) {display:block;}
+  }</style><style id="svelte-hqrtpf">.highlights.svelte-hqrtpf {margin:var(--sp-2) 0 0 0;}.highlights.svelte-hqrtpf > li:where(.svelte-hqrtpf) {margin-top:var(--sp-1);line-height:var(--lh-base);}.highlights.svelte-hqrtpf > li:where(.svelte-hqrtpf):first-child {margin-top:0;}
+
+  @media print {.highlights.svelte-hqrtpf {margin:var(--sp-2) 0 0 0;}.highlights.svelte-hqrtpf > li:where(.svelte-hqrtpf) {margin-top:var(--sp-1);line-height:var(--lh-snug);}.highlights.svelte-hqrtpf > li:where(.svelte-hqrtpf) > p {margin-bottom:var(--sp-1);}
+  }</style><style id="svelte-fiykfy">.website.svelte-fiykfy {display:block;margin-top:var(--sp-2);font-size:var(--fs-meta);line-height:var(--lh-snug);}.website.svelte-fiykfy .fa-up-right-from-square {margin-right:0.4em;color:var(--color-text-secondary);}</style><style id="svelte-rbv6q6">.gpa.svelte-rbv6q6 {clear:both;padding-bottom:0.5em;}</style><style id="svelte-2dygc7">.languages-grid.svelte-2dygc7 {display:grid;grid-template-columns:repeat(3, minmax(0, 1fr));column-gap:var(--sp-5);row-gap:var(--sp-3);}.language-item.svelte-2dygc7 {padding:0;border-bottom:none;}.language.svelte-2dygc7 {font-weight:700;font-size:var(--fs-card);line-height:var(--lh-snug);color:var(--color-heading);margin-bottom:var(--sp-1);}.display.svelte-2dygc7 {display:block;opacity:1 !important;}
+
+  @media screen and (max-width: 479px) {.languages-grid.svelte-2dygc7 {grid-template-columns:1fr;}
+  }
+
+  @media screen and (min-width: 480px) and (max-width: 601px) {.languages-grid.svelte-2dygc7 {grid-template-columns:repeat(2, minmax(0, 1fr));}
+  }</style><style id="svelte-1bnc9h3">.interests-grid.svelte-1bnc9h3 {display:grid;grid-template-columns:repeat(3, minmax(0, 1fr));column-gap:var(--sp-5);row-gap:var(--sp-3);}.interest-item.svelte-1bnc9h3 {padding:0;border-bottom:none;}.interest-item.svelte-1bnc9h3 .name:where(.svelte-1bnc9h3) {font-weight:700;font-size:var(--fs-card);line-height:var(--lh-snug);color:var(--color-heading);margin-bottom:var(--sp-1);}
+
+  @media screen and (max-width: 479px) {.interests-grid.svelte-1bnc9h3 {grid-template-columns:1fr;}
+  }
+
+  @media screen and (min-width: 480px) and (max-width: 601px) {.interests-grid.svelte-1bnc9h3 {grid-template-columns:repeat(2, minmax(0, 1fr));}
+  }</style><style id="svelte-1y7ope6">.reference-item.svelte-1y7ope6 {padding-left:var(--sp-3);margin-bottom:var(--sp-4);border-left:3px solid var(--color-reference-border);}.reference.svelte-1y7ope6 {font-style:italic;color:var(--color-text);line-height:var(--lh-base);margin-bottom:var(--sp-1);}.name.svelte-1y7ope6 {font-weight:700;font-size:var(--fs-meta);color:var(--color-text-secondary);}.name.svelte-1y7ope6::before {content:"— ";}</style>
   </head>
   <body>
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12">
-          <div id="photo-header" class="text-center">
-            <!-- PHOTO (AVATAR) -->
-            <div id="photo">
-              <img src="https:&#x2F;&#x2F;raw.githubusercontent.com&#x2F;ranjeewa&#x2F;ranjeewa.github.io&#x2F;master&#x2F;images&#x2F;Headshot_cropped.jpg" alt="avatar">
-            </div>
-            <div id="text-header" >
-              <h1>Ranjeewa Weerasinghe<br><span>Engineering Leader</span></h1>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-xs-12 col-sm-7">
-          <!-- ABOUT ME -->
-          <div class="box">
-            <h2><i class="fas fa-user ico"></i> About</h2>
-            <p>I'm an engineering leader who has built things from scratch as both an individual contributor and as a leader brought in to stand up a team and its architecture from day one. I've done this across early-stage startups, not-for-profit organizations, and Fortune 100 companies, leading distributed teams of full-time engineers and contractors across timezones and continents. I'm a proponent of lean and agile methodologies and test-driven development, and I do my best work in small, highly-collaborative teams that ship frequently.</p>
-          </div>
-          <!-- WORK EXPERIENCE -->
-          <div class="box">
-            <h2><i class= "fas fa-suitcase ico"></i> Work Experience</h2>
-              <div class="job clearfix">
-                <div class="row">
-                  <div class="details">
-                    <div class="where">
-                      Intellistack (formerly Formstack)
-                    </div>
-                    <div class="year">June 2024 – May 2026</div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="job-details col-xs-11">
-                    <div class="profession">Director of Engineering</div>
-                    <div class="description">
-                      
-                      <div class="highlights">Highlights</div>
-                      <ul class="list-group">
-                        <li class="list-group-item">Directed engineering for Intellistack Streamline, a no-code business process automation platform built from the ground up in 18 months</li>
-                        <li class="list-group-item">Led the Data Fabric team, integrating 12 data source types such as RDS, API-driven, and FHIR-based EHR systems into a common format for the platform</li>
-                        <li class="list-group-item">Led the Integrations team, connecting 15+ systems via an iPaaS for file, email, and event workflows</li>
-                        <li class="list-group-item">Managed 5 to 12 people, including other engineering managers, across a distributed mix of full-time employees and contractors</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="job clearfix">
-                <div class="row">
-                  <div class="details">
-                    <div class="where">
-                      Open Raven (acquired by Intellistack)
-                    </div>
-                    <div class="year">July 2020 – June 2024</div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="job-details col-xs-11">
-                    <div class="profession">Senior Software Engineer &#x2F; Technical Director</div>
-                    <div class="description">
-                      
-                      <div class="highlights">Highlights</div>
-                      <ul class="list-group">
-                        <li class="list-group-item">Wrote Open Raven's first data scanner and grew it into a dedicated scanning team, helping establish the DSPM (Data Security Posture Management) product category</li>
-                        <li class="list-group-item">Built the only scanning solution for file and data stores across AWS, GCP, and Azure that ran entirely within the customer's own environment</li>
-                        <li class="list-group-item">Delivered a scanning engine capable of identifying sensitive data at cloud scale, forming the core of Open Raven's DSPM product</li>
-                        <li class="list-group-item">Owned technical architecture, project management, and scrum master responsibilities for a team spanning the EU and US, in addition to writing code</li>
-                        <li class="list-group-item">Grew from individual contributor to Technical Director, taking on team leadership, hiring, and architectural ownership as the company scaled</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="job clearfix">
-                <div class="row">
-                  <div class="details">
-                    <div class="where">
-                      Tenable
-                    </div>
-                    <div class="year">November 2018 – July 2020</div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="job-details col-xs-11">
-                    <div class="profession">Senior Software Engineer &#x2F; Tech Lead</div>
-                    <div class="description">
-                      As an engineer on the Platform Engineering team, worked on the core frameworks and services powering Tenable's cloud offering.
-                      <div class="highlights">Highlights</div>
-                      <ul class="list-group">
-                        <li class="list-group-item">Evaluating 3rd-party identity platforms, and migrating from homegrown authentication system to Okta</li>
-                        <li class="list-group-item">Designing and implementing a new RBAC system</li>
-                        <li class="list-group-item">Improving and maintaining microservices and frameworks written in Groovy, Java, Kotlin, and Node</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="job clearfix">
-                <div class="row">
-                  <div class="details">
-                    <div class="where">
-                      Skyward, a Verizon company
-                    </div>
-                    <div class="year">November 2017 – November 2018</div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="job-details col-xs-11">
-                    <div class="profession">Lead Java Engineer</div>
-                    <div class="description">
-                      Skyward builds software to manage commercial UAV (drone) operations. Hired to lead the development team in adopting Agile practices, refactor the legacy codebase to enable faster deployment, and to mentor junior developers.
-                      <div class="highlights">Highlights</div>
-                      <ul class="list-group">
-                        <li class="list-group-item">Refactored airspace generation software for modularity, increased testability, enabling zero-downtime deployments</li>
-                        <li class="list-group-item">Built the industry's first certified LAANC integration with the FAA, collaborating directly with agency counterparts to develop and validate their API endpoints</li>
-                        <li class="list-group-item">Created CI pipelines, containerized services and started using Kubernetes for deployment</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="job clearfix">
-                <div class="row">
-                  <div class="details">
-                    <div class="where">
-                      Jama Software
-                    </div>
-                    <div class="year">October 2011 – February 2017</div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="job-details col-xs-11">
-                    <div class="profession">Technical Lead</div>
-                    <div class="description">
-                      
-                      <div class="highlights">Highlights</div>
-                      <ul class="list-group">
-                        <li class="list-group-item">Led the team migrating Jama from a monolithic Java webapp to a SOA – including evaluating and designing service frameworks, building services, and developing a Docker-based deployment model for SaaS and on-premises installations</li>
-                        <li class="list-group-item">Developed Jama's first analytics product – data collection endpoints, ETL into ElasticSearch, and visualization with Kibana</li>
-                        <li class="list-group-item">Designed a new technical hiring flow for Jama, resulting in a more efficient and consistent interview process, and better quality hires</li>
-                        <li class="list-group-item">Built multiple integrations between Jama and other products, using REST/SOAP APIs and custom libraries</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="job clearfix">
-                <div class="row">
-                  <div class="details">
-                    <div class="where">
-                      Agilivant
-                    </div>
-                    <div class="year">September 2010 – August 2011</div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="job-details col-xs-11">
-                    <div class="profession">Architect (contract)</div>
-                    <div class="description">
-                      First technical hire in this financial products start-up. Advising the founders on technology & platform strategy. Establishing development practices for technical hires. Creating hybrid cloud infrastructure with AWS for development and deployment.
-                      <div class="highlights">Highlights</div>
-                      <ul class="list-group">
-                        <li class="list-group-item">Selected and configured source control, continuous integration and collaboration environments for development team</li>
-                        <li class="list-group-item">Implemented portions of debit card platform including card ordering and account management system, CSR functionality, services layer, IVR & SMS integration, batch processing of ISO 8583 transactions</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="job clearfix">
-                <div class="row">
-                  <div class="details">
-                    <div class="where">
-                      Collaborative Software Initiative
-                    </div>
-                    <div class="year">January 2010 – August 2010</div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="job-details col-xs-11">
-                    <div class="profession">Core Developer</div>
-                    <div class="description">
-                      CSI builds and deploys enterprise software products using a unique collaborative approach and open source technologies.
-                      <div class="highlights">Highlights</div>
-                      <ul class="list-group">
-                        <li class="list-group-item">Inno360: building an open innovation platform for organizations to manage their innovation ecosystem</li>
-                        <li class="list-group-item">TriSano: a Ruby on Rails open source surveillance and outbreak management application for public health</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="job clearfix">
-                <div class="row">
-                  <div class="details">
-                    <div class="where">
-                      Liberty Mutual Insurance Group
-                    </div>
-                    <div class="year">April 2007 – January 2010</div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="job-details col-xs-11">
-                    <div class="profession">Technologist</div>
-                    <div class="description">
-                      
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="job clearfix">
-                <div class="row">
-                  <div class="details">
-                    <div class="where">
-                      ACS Government Solutions Group
-                    </div>
-                    <div class="year">October 2002 – April 2007</div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="job-details col-xs-11">
-                    <div class="profession">Technical Architect</div>
-                    <div class="description">
-                      
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="job clearfix">
-                <div class="row">
-                  <div class="details">
-                    <div class="where">
-                      Association of American Medical Colleges
-                    </div>
-                    <div class="year">May 2001 – October 2002</div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="job-details col-xs-11">
-                    <div class="profession">Systems Developer – Enterprise Apps</div>
-                    <div class="description">
-                      
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="job clearfix">
-                <div class="row">
-                  <div class="details">
-                    <div class="where">
-                      WebMD Corporation
-                    </div>
-                    <div class="year">January 1999 – January 2001</div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="job-details col-xs-11">
-                    <div class="profession">Project Lead</div>
-                    <div class="description">
-                      
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="job clearfix">
-                <div class="row">
-                  <div class="details">
-                    <div class="where">
-                      Sapient Health Network (acquired by WebMD)
-                    </div>
-                    <div class="year">November 1996 – January 1999</div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="job-details col-xs-11">
-                    <div class="profession">Senior Software Engineer</div>
-                    <div class="description">
-                      
-                    </div>
-                  </div>
-                </div>
-              </div>
-          </div>
-        </div>
-        <div class="col-xs-12 col-sm-5">
-          <!-- CONTACT -->
-          <div class="box clearfix">
-            <h2><i class="fas fa-bullseye ico"></i> Contact</h2>
-            <div class="contact-item">
-              <div class="icon pull-left text-center"><span class="fas fa-map-marker fa-fw"></span></div>
-              
-              <div class="title only  pull-right">Bend, OR US</div>
-            </div>
-            <div class="contact-item">
-              <div class="icon pull-left text-center"><span class="fas fa-envelope fa-fw"></span></div>
-              <div class="title only pull-right"><a href="mailto:hello@ranjeewa.com" target="_blank">hello@ranjeewa.com</a></div>
-            </div>
-            <div class="contact-item">
-              <div class="icon pull-left text-center"><span class="fas fa-globe fa-fw"></span></div>
-              <div class="title only pull-right"><a href="https:&#x2F;&#x2F;ranjeewa.com" target="_blank">https:&#x2F;&#x2F;ranjeewa.com</a></div>
-            </div>
-            <div class="contact-item">
-              <div class="icon pull-left text-center"><span class="fab fa-linkedin fa-fw"></span></div>
-              <div class="title pull-right">LinkedIn</div>
-              <div class="description pull-right"><a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;ranjeewa" target="_blank">ranjeewa</a></div>
-            </div>
-          </div>
-          <!-- EDUCATION -->
-          <div class="box">
-            <h2><i class="fas fa-university ico"></i> Education</h2>
-            <ul id="education" class="clearfix">
-              <li>
-                <div class="year pull-left"> 1996</div>
-                <div class="description pull-right">
-                  <h3>Purdue University</h3>
-                  <div class="where"></div>
-                  <p><i class= "fas fa-graduation-cap ico"></i> MS</p>
-                  <p>Computer Science</p>
-                </div>
-              </li>
-              <li>
-                <div class="year pull-left"> 1993</div>
-                <div class="description pull-right">
-                  <h3>University of Houston, Clear Lake</h3>
-                  <div class="where"></div>
-                  <p><i class= "fas fa-graduation-cap ico"></i> BS</p>
-                  <p>Computer Science</p>
-                </div>
-              </li>
-            </ul>
-          </div>
-          <!-- SKILLS -->
-          <div class="box">
-            <h2><i class="fas fa-tasks ico"></i> Skills</h2>
-            <div class="skills clearfix">
-              <div class="item-skills">
-                  AI
-                  
-              </div>
-              <div class="col-sm-offset-1 col-sm-12 clearfix">
-                <span class= "skill badge">Spring AI</span>
-                <span class= "skill badge">Codex</span>
-                <span class= "skill badge">Claude</span>
-                <span class= "skill badge">Cursor</span>
-              </div>
-            </div>
-            <div class="skills clearfix">
-              <div class="item-skills">
-                  Backend
-                  
-              </div>
-              <div class="col-sm-offset-1 col-sm-12 clearfix">
-                <span class= "skill badge">Java / JVM languages</span>
-                <span class= "skill badge">Spring</span>
-                <span class= "skill badge">RDBMS (PostgreSQL, MySQL)</span>
-                <span class= "skill badge">Redis</span>
-                <span class= "skill badge">ElasticSearch</span>
-              </div>
-            </div>
-            <div class="skills clearfix">
-              <div class="item-skills">
-                  Cloud &amp; DevOps
-                  
-              </div>
-              <div class="col-sm-offset-1 col-sm-12 clearfix">
-                <span class= "skill badge">AWS</span>
-                <span class= "skill badge">Google Cloud Platform (GCP)</span>
-                <span class= "skill badge">Kubernetes</span>
-                <span class= "skill badge">Docker</span>
-                <span class= "skill badge">Serverless</span>
-                <span class= "skill badge">CI/CD Pipelines</span>
-              </div>
-            </div>
-            <div class="skills clearfix">
-              <div class="item-skills">
-                  Architecture &amp; Tooling
-                  
-              </div>
-              <div class="col-sm-offset-1 col-sm-12 clearfix">
-                <span class= "skill badge">System Design</span>
-                <span class= "skill badge">API Design</span>
-                <span class= "skill badge">Microservices</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
+    <a class="skip-to-content" href="#resume">Skip to content</a> <main id="resume" class="resume svelte-rssu9l"><header class="header clear svelte-10f9ycp"><img class="image svelte-10f9ycp" src="https://raw.githubusercontent.com/ranjeewa/ranjeewa.github.io/master/images/Headshot_cropped.jpg" alt="Ranjeewa Weerasinghe"/> <div class="middle"><h1 class="name svelte-10f9ycp">Ranjeewa Weerasinghe</h1> <h2 class="label svelte-10f9ycp">Engineering Leader</h2></div> <span class="location svelte-10f9ycp"><!--[!--> <!--[!--> <span>Bend,</span> <span>OR</span> <span>(US)</span></span> <!--[!--><!----> <div class="contact svelte-121pvxs"><div class="contact-item svelte-121pvxs"><span class="fa-regular fa-envelope icon svelte-121pvxs"></span> <a class="hide-href-print" href="mailto:hello@ranjeewa.com">hello@ranjeewa.com</a></div> <!--[!--> <!--[!--></div><!----> <nav class="profiles svelte-10f9ycp" aria-label="Social profiles"><div class="item svelte-a76edc"><div class="username"><span class="fa-brands fa-linkedin social svelte-a76edc" style="--brand-light: #007bb6; --brand-dark: #007bb6"></span> <span class="url"><a target="_blank" href="https://www.linkedin.com/in/ranjeewa"><span class="show-only-url-print">ranjeewa</span></a></span></div></div></nav></header> <section class="section svelte-1lncexq"><header class="svelte-1lncexq"><h2 class="section-title svelte-1lncexq">Summary<!--[!--></h2></header> <section class="main-summary svelte-10f9ycp"><div><!----><p style="margin:0">I'm an engineering leader who has built things from scratch as both an individual contributor and as a leader brought in to stand up a team and its architecture from day one. I've done this across early-stage startups, not-for-profit organizations, and Fortune 100 companies, leading distributed teams of full-time engineers and contractors across timezones and continents. I'm a proponent of lean and agile methodologies and test-driven development, and I do my best work in small, highly-collaborative teams that ship frequently.</p><!----><!----></div></section><!----></section><!--[1--><section class="section svelte-1lncexq"><header class="svelte-1lncexq"><h2 class="section-title svelte-1lncexq">Skills<!--[!--></h2></header> <section class="skills-grid svelte-18p2gu6"><div class="skill-item svelte-18p2gu6"><h3 class="name svelte-18p2gu6">AI</h3> <!--[!--> <ul class="keywords svelte-1615qzb"><li class="svelte-1615qzb">Spring AI</li><li class="svelte-1615qzb">Codex</li><li class="svelte-1615qzb">Claude</li><li class="svelte-1615qzb">Cursor</li></ul><!----></div><div class="skill-item svelte-18p2gu6"><h3 class="name svelte-18p2gu6">Backend</h3> <!--[!--> <ul class="keywords svelte-1615qzb"><li class="svelte-1615qzb">Java / JVM languages</li><li class="svelte-1615qzb">Python</li><li class="svelte-1615qzb">Spring</li><li class="svelte-1615qzb">RDBMS (PostgreSQL, MySQL, Oracle)</li><li class="svelte-1615qzb">NoSQL (ElasticSearch)</li><li class="svelte-1615qzb">Redis</li></ul><!----></div><div class="skill-item svelte-18p2gu6"><h3 class="name svelte-18p2gu6">Cloud &amp; DevOps</h3> <!--[!--> <ul class="keywords svelte-1615qzb"><li class="svelte-1615qzb">AWS</li><li class="svelte-1615qzb">Google Cloud Platform (GCP)</li><li class="svelte-1615qzb">Kubernetes</li><li class="svelte-1615qzb">Docker</li><li class="svelte-1615qzb">Serverless</li><li class="svelte-1615qzb">CI/CD Pipelines</li></ul><!----></div><div class="skill-item svelte-18p2gu6"><h3 class="name svelte-18p2gu6">Architecture &amp; Tooling</h3> <!--[!--> <ul class="keywords svelte-1615qzb"><li class="svelte-1615qzb">System Design</li><li class="svelte-1615qzb">API Design</li><li class="svelte-1615qzb">Microservices</li></ul><!----></div></section><!----></section><!--[2--><section class="section svelte-1lncexq"><header class="svelte-1lncexq"><h2 class="section-title svelte-1lncexq">Work Experience<span class="item-count svelte-1lncexq">(12)</span></h2></header> <section id="work"><section class="timeline-item svelte-g3qng"><header class="clear svelte-g3qng"><div class="date"><span class="startDate">May 2024</span> <span class="endDate">- Apr 2026</span></div> <div class="header-left svelte-g3qng"><div class="position svelte-g3qng">Director of Engineering</div> <div class="company svelte-g3qng"><!--[!-->Intellistack (formerly Formstack)</div></div></header> <!--[!--> <!--[!--><!----> <!--[!--> <div class="item svelte-g3qng"><!--[!--> <ul class="highlights svelte-hqrtpf"><li class="svelte-hqrtpf"><!----><p style="margin:0">Led multiple engineering teams building Intellistack Streamline, a customer-facing, no-code business process automation platform built on a Next.js (React) frontend, taking it from concept to onboarding production customers in 18 months</p><!----><!----></li><li class="svelte-hqrtpf"><!----><p style="margin:0">Partnered daily with product managers, both on my teams and across the org, to translate customer needs into roadmap and technical scope spanning both backend and frontend development</p><!----><!----></li><li class="svelte-hqrtpf"><!----><p style="margin:0">Led the Data Fabric team, integrating 12 data source types such as RDS, API-driven, and FHIR-based EHR systems into a common format for the platform</p><!----><!----></li><li class="svelte-hqrtpf"><!----><p style="margin:0">Led the Integrations team, connecting 15+ systems via an iPaaS for file, email, and event workflows</p><!----><!----></li><li class="svelte-hqrtpf"><!----><p style="margin:0">Managed 5 to 12 people, including other engineering managers, across a distributed mix of full-time employees and contractors</p><!----><!----></li></ul><!----></div></section><section class="timeline-item svelte-g3qng"><header class="clear svelte-g3qng"><div class="date"><span class="startDate">Jun 2020</span> <span class="endDate">- May 2024</span></div> <div class="header-left svelte-g3qng"><div class="position svelte-g3qng">Senior Software Engineer / Technical Director</div> <div class="company svelte-g3qng"><!--[!-->Open Raven (acquired by Intellistack)</div></div></header> <!--[!--> <!--[!--><!----> <!--[!--> <div class="item svelte-g3qng"><!--[!--> <ul class="highlights svelte-hqrtpf"><li class="svelte-hqrtpf"><!----><p style="margin:0">Wrote Open Raven's first data scanner and grew it into a dedicated, fully remote team of 8 frontend and backend engineers, helping establish the DSPM (Data Security Posture Management) product category</p><!----><!----></li><li class="svelte-hqrtpf"><!----><p style="margin:0">Built the only scanning solution for file and data stores across AWS, GCP, and Azure that ran entirely within the customer's own environment</p><!----><!----></li><li class="svelte-hqrtpf"><!----><p style="margin:0">Delivered a scanning engine capable of identifying sensitive data at cloud scale, forming the core of Open Raven's DSPM product</p><!----><!----></li><li class="svelte-hqrtpf"><!----><p style="margin:0">Owned technical architecture, project management, and scrum master responsibilities for a team spanning the EU and US, in addition to writing code</p><!----><!----></li><li class="svelte-hqrtpf"><!----><p style="margin:0">Grew from individual contributor to Technical Director, taking on team leadership, hiring, and architectural ownership as the company scaled</p><!----><!----></li></ul><!----></div></section><section class="timeline-item svelte-g3qng"><header class="clear svelte-g3qng"><div class="date"><span class="startDate">Oct 2018</span> <span class="endDate">- Jun 2020</span></div> <div class="header-left svelte-g3qng"><div class="position svelte-g3qng">Senior Software Engineer / Tech Lead</div> <div class="company svelte-g3qng"><!--[!-->Tenable</div></div></header> <!--[!--> <!--[!--><!----> <!--[!--> <div class="item svelte-g3qng"><div class="summary svelte-g3qng"><!----><p style="margin:0">As an engineer on the Platform Engineering team, worked on the core frameworks and services powering Tenable's cloud offering.</p><!----><!----></div> <ul class="highlights svelte-hqrtpf"><li class="svelte-hqrtpf"><!----><p style="margin:0">Improved and maintained microservices and frameworks written in Groovy, Java, Kotlin, and Node, powering Tenable's cloud offering</p><!----><!----></li><li class="svelte-hqrtpf"><!----><p style="margin:0">Designed a new RBAC system and led migration from a homegrown authentication system to Okta</p><!----><!----></li></ul><!----></div></section><section class="timeline-item svelte-g3qng"><header class="clear svelte-g3qng"><div class="date"><span class="startDate">Oct 2017</span> <span class="endDate">- Oct 2018</span></div> <div class="header-left svelte-g3qng"><div class="position svelte-g3qng">Lead Java Engineer</div> <div class="company svelte-g3qng"><!--[!-->Skyward, a Verizon company</div></div></header> <!--[!--> <!--[!--><!----> <!--[!--> <div class="item svelte-g3qng"><div class="summary svelte-g3qng"><!----><p style="margin:0">Skyward built software to manage commercial UAV (drone) operations. Hired to lead the development team in adopting Agile practices, refactor the legacy codebase to enable faster deployment, and to mentor junior developers.</p><!----><!----></div> <ul class="highlights svelte-hqrtpf"><li class="svelte-hqrtpf"><!----><p style="margin:0">Built the industry's first LAANC integration approved by the FAA, taking it from concept to certified production integration by collaborating directly with FAA counterparts to develop and validate their API endpoints</p><!----><!----></li><li class="svelte-hqrtpf"><!----><p style="margin:0">Led and mentored a team of 4 to 6 developers, growing junior engineers' technical skills while adopting Agile practices for the first time</p><!----><!----></li><li class="svelte-hqrtpf"><!----><p style="margin:0">Refactored airspace generation software into containerized microservices deployed on Kubernetes, enabling modularity, testability, and zero-downtime deployments</p><!----><!----></li><li class="svelte-hqrtpf"><!----><p style="margin:0">Created CI pipelines to support the new microservices architecture</p><!----><!----></li></ul><!----></div></section><section class="timeline-item svelte-g3qng"><header class="clear svelte-g3qng"><div class="date"><span class="startDate">Sept 2011</span> <span class="endDate">- Jan 2017</span></div> <div class="header-left svelte-g3qng"><div class="position svelte-g3qng">Technical Lead</div> <div class="company svelte-g3qng"><!--[!-->Jama Software</div></div></header> <!--[!--> <!--[!--><!----> <!--[!--> <div class="item svelte-g3qng"><!--[!--> <ul class="highlights svelte-hqrtpf"><li class="svelte-hqrtpf"><!----><p style="margin:0">Served as Technical Lead across multiple teams totaling 15 engineers, including leading the migration of Jama, a customer-facing SaaS product built on React, from a monolithic Java webapp to a service-oriented architecture, enabling faster, more independent releases, evaluating and designing service frameworks and building a Docker-based deployment model for both SaaS and on-premises installations</p><!----><!----></li><li class="svelte-hqrtpf"><!----><p style="margin:0">Worked closely with engineering leaders and product managers throughout my tenure to scope, prioritize, and deliver features across the platform</p><!----><!----></li><li class="svelte-hqrtpf"><!----><p style="margin:0">Developed Jama's first analytics product, including data collection endpoints, ETL into ElasticSearch, and visualization with Kibana</p><!----><!----></li><li class="svelte-hqrtpf"><!----><p style="margin:0">Designed a new technical hiring flow for Jama, resulting in a more efficient and consistent interview process and better quality hires</p><!----><!----></li><li class="svelte-hqrtpf"><!----><p style="margin:0">Built multiple integrations between Jama and other products, using REST/SOAP APIs and custom libraries</p><!----><!----></li></ul><!----></div></section><section class="timeline-item svelte-g3qng"><header class="clear svelte-g3qng"><div class="date"><span class="startDate">Aug 2010</span> <span class="endDate">- Jul 2011</span></div> <div class="header-left svelte-g3qng"><div class="position svelte-g3qng">Architect (contract)</div> <div class="company svelte-g3qng"><!--[!-->Agilivant</div></div></header> <!--[!--> <!--[!--><!----> <!--[!--> <div class="item svelte-g3qng"><div class="summary svelte-g3qng"><!----><p style="margin:0">First technical hire in this financial products start-up. Advising the founders on technology &amp; platform strategy. Establishing development practices for technical hires. Creating hybrid cloud infrastructure with AWS for development and deployment.</p><!----><!----></div> <ul class="highlights svelte-hqrtpf"><li class="svelte-hqrtpf"><!----><p style="margin:0">Hired and led a team of 2 engineers, establishing source control, CI, and collaboration environments for the development team</p><!----><!----></li><li class="svelte-hqrtpf"><!----><p style="margin:0">Built hybrid cloud infrastructure on AWS for development and deployment</p><!----><!----></li><li class="svelte-hqrtpf"><!----><p style="margin:0">Implemented core components of a cardholder-facing debit card platform, including card ordering and account management, CSR functionality, a services layer, IVR and SMS integration, and batch processing of ISO 8583 transactions</p><!----><!----></li><li class="svelte-hqrtpf"><!----><p style="margin:0">Achieved Visa validation and successfully tested the platform with real cards, before leaving ahead of the platform's public launch</p><!----><!----></li></ul><!----></div></section><section class="timeline-item svelte-g3qng"><header class="clear svelte-g3qng"><div class="date"><span class="startDate">Dec 2009</span> <span class="endDate">- Jul 2010</span></div> <div class="header-left svelte-g3qng"><div class="position svelte-g3qng">Core Developer</div> <div class="company svelte-g3qng"><!--[!-->Collaborative Software Initiative</div></div></header> <!--[!--> <!--[!--><!----> <!--[!--> <div class="item svelte-g3qng"><!--[!--> <!--[!--><!----></div></section><section class="timeline-item svelte-g3qng"><header class="clear svelte-g3qng"><div class="date"><span class="startDate">Mar 2007</span> <span class="endDate">- Dec 2009</span></div> <div class="header-left svelte-g3qng"><div class="position svelte-g3qng">Technologist</div> <div class="company svelte-g3qng"><!--[!-->Liberty Mutual Insurance Group</div></div></header> <!--[!--> <!--[!--><!----> <!--[!--> <div class="item svelte-g3qng"><!--[!--> <!--[!--><!----></div></section><section class="timeline-item svelte-g3qng"><header class="clear svelte-g3qng"><div class="date"><span class="startDate">Sept 2002</span> <span class="endDate">- Mar 2007</span></div> <div class="header-left svelte-g3qng"><div class="position svelte-g3qng">Technical Architect</div> <div class="company svelte-g3qng"><!--[!-->ACS Government Solutions Group</div></div></header> <!--[!--> <!--[!--><!----> <!--[!--> <div class="item svelte-g3qng"><!--[!--> <!--[!--><!----></div></section><section class="timeline-item svelte-g3qng"><header class="clear svelte-g3qng"><div class="date"><span class="startDate">Apr 2001</span> <span class="endDate">- Sept 2002</span></div> <div class="header-left svelte-g3qng"><div class="position svelte-g3qng">Systems Developer – Enterprise Apps</div> <div class="company svelte-g3qng"><!--[!-->Association of American Medical Colleges</div></div></header> <!--[!--> <!--[!--><!----> <!--[!--> <div class="item svelte-g3qng"><!--[!--> <!--[!--><!----></div></section><section class="timeline-item svelte-g3qng"><header class="clear svelte-g3qng"><div class="date"><span class="startDate">Dec 1998</span> <span class="endDate">- Dec 2000</span></div> <div class="header-left svelte-g3qng"><div class="position svelte-g3qng">Project Lead</div> <div class="company svelte-g3qng"><!--[!-->WebMD Corporation</div></div></header> <!--[!--> <!--[!--><!----> <!--[!--> <div class="item svelte-g3qng"><!--[!--> <!--[!--><!----></div></section><section class="timeline-item svelte-g3qng"><header class="clear svelte-g3qng"><div class="date"><span class="startDate">Oct 1996</span> <span class="endDate">- Dec 1998</span></div> <div class="header-left svelte-g3qng"><div class="position svelte-g3qng">Senior Software Engineer</div> <div class="company svelte-g3qng"><!--[!-->Sapient Health Network (acquired by WebMD)</div></div></header> <!--[!--> <!--[!--><!----> <!--[!--> <div class="item svelte-g3qng"><!--[!--> <!--[!--><!----></div></section></section><!----></section><!--[3--><!--[!--><!--[4--><!--[!--><!--[5--><section class="section svelte-1lncexq"><header class="svelte-1lncexq"><h2 class="section-title svelte-1lncexq">Education<span class="item-count svelte-1lncexq">(2)</span></h2></header> <section id="education"><section class="timeline-item svelte-g3qng"><header class="clear svelte-g3qng"><!--[!--> <div class="header-left svelte-g3qng"><div class="position svelte-g3qng">MS Computer Science</div> <div class="institution svelte-g3qng"><!--[!-->Purdue University</div></div></header> <!--[!--> <!--[!--><!----> <!--[!--> <!--[!--><!----> <div class="item svelte-g3qng"><!--[!--> <!--[!--><!----></div></section><section class="timeline-item svelte-g3qng"><header class="clear svelte-g3qng"><!--[!--> <div class="header-left svelte-g3qng"><div class="position svelte-g3qng">BS Computer Science</div> <div class="institution svelte-g3qng"><!--[!-->University of Houston, Clear Lake</div></div></header> <!--[!--> <!--[!--><!----> <!--[!--> <!--[!--><!----> <div class="item svelte-g3qng"><!--[!--> <!--[!--><!----></div></section></section><!----></section><!--[6--><!--[!--><!--[7--><!--[!--><!--[8--><!--[!--><!--[9--><!--[!--><!--[10--><!--[!--><!--[11--><!--[!--></main>
   </body>
 </html>

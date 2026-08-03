@@ -27,7 +27,8 @@
       "startDate": "2024-06",
       "endDate": "2026-05",
       "highlights": [
-        "Directed engineering for Intellistack Streamline, a no-code business process automation platform built from the ground up in 18 months",
+        "Led multiple engineering teams building Intellistack Streamline, a customer-facing, no-code business process automation platform built on a Next.js (React) frontend, taking it from concept to onboarding production customers in 18 months",
+        "Partnered daily with product managers, both on my teams and across the org, to translate customer needs into roadmap and technical scope spanning both backend and frontend development",
         "Led the Data Fabric team, integrating 12 data source types such as RDS, API-driven, and FHIR-based EHR systems into a common format for the platform",
         "Led the Integrations team, connecting 15+ systems via an iPaaS for file, email, and event workflows",
         "Managed 5 to 12 people, including other engineering managers, across a distributed mix of full-time employees and contractors"
@@ -39,7 +40,7 @@
       "startDate": "2020-07",
       "endDate": "2024-06",
       "highlights": [
-        "Wrote Open Raven's first data scanner and grew it into a dedicated scanning team, helping establish the DSPM (Data Security Posture Management) product category",
+        "Wrote Open Raven's first data scanner and grew it into a dedicated, fully remote team of 8 frontend and backend engineers, helping establish the DSPM (Data Security Posture Management) product category",
         "Built the only scanning solution for file and data stores across AWS, GCP, and Azure that ran entirely within the customer's own environment",
         "Delivered a scanning engine capable of identifying sensitive data at cloud scale, forming the core of Open Raven's DSPM product",
         "Owned technical architecture, project management, and scrum master responsibilities for a team spanning the EU and US, in addition to writing code",
@@ -53,9 +54,8 @@
       "endDate": "2020-07",
       "summary": "As an engineer on the Platform Engineering team, worked on the core frameworks and services powering Tenable's cloud offering.",
       "highlights": [
-        "Evaluating 3rd-party identity platforms, and migrating from homegrown authentication system to Okta",
-        "Designing and implementing a new RBAC system",
-        "Improving and maintaining microservices and frameworks written in Groovy, Java, Kotlin, and Node"
+        "Improved and maintained microservices and frameworks written in Groovy, Java, Kotlin, and Node, powering Tenable's cloud offering",
+        "Designed a new RBAC system and led migration from a homegrown authentication system to Okta"
       ]
     },
     {
@@ -63,11 +63,12 @@
       "position": "Lead Java Engineer",
       "startDate": "2017-11",
       "endDate": "2018-11",
-      "summary": "Skyward builds software to manage commercial UAV (drone) operations. Hired to lead the development team in adopting Agile practices, refactor the legacy codebase to enable faster deployment, and to mentor junior developers.",
+      "summary": "Skyward built software to manage commercial UAV (drone) operations. Hired to lead the development team in adopting Agile practices, refactor the legacy codebase to enable faster deployment, and to mentor junior developers.",
       "highlights": [
-        "Refactored airspace generation software for modularity, increased testability, enabling zero-downtime deployments",
-        "Built the industry's first certified LAANC integration with the FAA, collaborating directly with agency counterparts to develop and validate their API endpoints",
-        "Created CI pipelines, containerized services and started using Kubernetes for deployment"
+        "Built the industry's first LAANC integration approved by the FAA, taking it from concept to certified production integration by collaborating directly with FAA counterparts to develop and validate their API endpoints",
+        "Led and mentored a team of 4 to 6 developers, growing junior engineers' technical skills while adopting Agile practices for the first time",
+        "Refactored airspace generation software into containerized microservices deployed on Kubernetes, enabling modularity, testability, and zero-downtime deployments",
+        "Created CI pipelines to support the new microservices architecture"
       ]
     },
     {
@@ -76,9 +77,10 @@
       "startDate": "2011-10",
       "endDate": "2017-02",
       "highlights": [
-        "Led the team migrating Jama from a monolithic Java webapp to a SOA – including evaluating and designing service frameworks, building services, and developing a Docker-based deployment model for SaaS and on-premises installations",
-        "Developed Jama's first analytics product – data collection endpoints, ETL into ElasticSearch, and visualization with Kibana",
-        "Designed a new technical hiring flow for Jama, resulting in a more efficient and consistent interview process, and better quality hires",
+        "Served as Technical Lead across multiple teams totaling 15 engineers, including leading the migration of Jama, a customer-facing SaaS product built on React, from a monolithic Java webapp to a service-oriented architecture, enabling faster, more independent releases, evaluating and designing service frameworks and building a Docker-based deployment model for both SaaS and on-premises installations",
+        "Worked closely with engineering leaders and product managers throughout my tenure to scope, prioritize, and deliver features across the platform",
+        "Developed Jama's first analytics product, including data collection endpoints, ETL into ElasticSearch, and visualization with Kibana",
+        "Designed a new technical hiring flow for Jama, resulting in a more efficient and consistent interview process and better quality hires",
         "Built multiple integrations between Jama and other products, using REST/SOAP APIs and custom libraries"
       ]
     },
@@ -89,20 +91,17 @@
       "endDate": "2011-08",
       "summary": "First technical hire in this financial products start-up. Advising the founders on technology & platform strategy. Establishing development practices for technical hires. Creating hybrid cloud infrastructure with AWS for development and deployment.",
       "highlights": [
-        "Selected and configured source control, continuous integration and collaboration environments for development team",
-        "Implemented portions of debit card platform including card ordering and account management system, CSR functionality, services layer, IVR & SMS integration, batch processing of ISO 8583 transactions"
+        "Hired and led a team of 2 engineers, establishing source control, CI, and collaboration environments for the development team",
+        "Built hybrid cloud infrastructure on AWS for development and deployment",
+        "Implemented core components of a cardholder-facing debit card platform, including card ordering and account management, CSR functionality, a services layer, IVR and SMS integration, and batch processing of ISO 8583 transactions",
+        "Achieved Visa validation and successfully tested the platform with real cards, before leaving ahead of the platform's public launch"
       ]
     },
     {
       "name": "Collaborative Software Initiative",
       "position": "Core Developer",
       "startDate": "2010-01",
-      "endDate": "2010-08",
-      "summary": "CSI builds and deploys enterprise software products using a unique collaborative approach and open source technologies.",
-      "highlights": [
-        "Inno360: building an open innovation platform for organizations to manage their innovation ecosystem",
-        "TriSano: a Ruby on Rails open source surveillance and outbreak management application for public health"
-      ]
+      "endDate": "2010-08"
     },
     {
       "name": "Liberty Mutual Insurance Group",
@@ -142,7 +141,7 @@
     },
     {
       "name": "Backend",
-      "keywords": ["Java / JVM languages", "Spring", "RDBMS (PostgreSQL, MySQL)", "Redis", "ElasticSearch"]
+      "keywords": ["Java / JVM languages", "Python", "Spring", "RDBMS (PostgreSQL, MySQL, Oracle)", "NoSQL (ElasticSearch)", "Redis"]
     },
     {
       "name": "Cloud & DevOps",
