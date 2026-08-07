@@ -6,7 +6,7 @@
     "image": "https://raw.githubusercontent.com/ranjeewa/ranjeewa.github.io/master/images/Headshot_cropped.jpg",
     "email": "hello@ranjeewa.com",
     "url": "https://ranjeewa.com",
-    "summary": "I'm an engineering leader who has built things from scratch as both an individual contributor and as a leader brought in to stand up a team and its architecture from day one. I've done this across early-stage startups, not-for-profit organizations, and Fortune 100 companies, leading distributed teams of full-time engineers and contractors across timezones and continents. I'm a proponent of lean and agile methodologies and test-driven development, and I do my best work in small, highly-collaborative teams that ship frequently.",
+    "summary": "I'm an engineering leader who has built things from scratch as both an individual contributor and as a leader brought in to stand up a team and its architecture from day one. I've done this across early-stage startups, not-for-profit organizations, and Fortune 100 companies, leading distributed teams of full-time engineers and contractors across timezones and continents. I've also led financial data integrity work, from a debit card platform's transaction processing to healthcare EHR data integration, and I care about building systems that are correct by construction. I'm a proponent of lean and agile methodologies and test-driven development, and I do my best work in small, highly-collaborative teams that ship frequently.",
     "location": {
       "city": "Bend",
       "region": "OR",
@@ -29,8 +29,8 @@
       "highlights": [
         "Led multiple engineering teams building Intellistack Streamline, a customer-facing, no-code business process automation platform built on a Next.js (React) frontend, taking it from concept to onboarding production customers in 18 months",
         "Partnered daily with product managers, both on my teams and across the org, to translate customer needs into roadmap and technical scope spanning both backend and frontend development",
-        "Led the Data Fabric team, integrating 12 data source types such as RDS, API-driven, and FHIR-based EHR systems into a common format for the platform",
-        "Led the Integrations team, connecting 15+ systems via an iPaaS for file, email, and event workflows",
+        "Led the Data Fabric team, unifying data integration across 12 source types, including RDS, API-driven, and FHIR-based EHR systems, into a single trusted format for downstream systems",
+        "Led event-driven integration architecture connecting 15+ external systems, handling asynchronous file, email, and event-based workflows reliably at scale",
         "Managed 5 to 12 people, including other engineering managers, across a distributed mix of full-time employees and contractors"
       ]
     },
@@ -77,7 +77,7 @@
       "startDate": "2011-10",
       "endDate": "2017-02",
       "highlights": [
-        "Served as Technical Lead across multiple teams totaling 15 engineers, including leading the migration of Jama, a customer-facing SaaS product built on React, from a monolithic Java webapp to a service-oriented architecture, enabling faster, more independent releases, evaluating and designing service frameworks and building a Docker-based deployment model for both SaaS and on-premises installations",
+        "Led the de-risked migration of Jama's monolithic Java webapp to a service-oriented architecture, evaluating and phasing service frameworks and deployment models to protect production stability for SaaS and on-premises customers throughout the transition",
         "Worked closely with engineering leaders and product managers throughout my tenure to scope, prioritize, and deliver features across the platform",
         "Developed Jama's first analytics product, including data collection endpoints, ETL into ElasticSearch, and visualization with Kibana",
         "Designed a new technical hiring flow for Jama, resulting in a more efficient and consistent interview process and better quality hires",
@@ -149,7 +149,7 @@
     },
     {
       "name": "Architecture & Tooling",
-      "keywords": ["System Design", "API Design", "Microservices"]
+      "keywords": ["System Design", "API Design", "Microservices", "Distributed Systems", "Event-Driven Architecture"]
     }
   ],
   "education": [
