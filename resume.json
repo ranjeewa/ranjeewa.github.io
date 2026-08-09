@@ -24,8 +24,8 @@
     {
       "name": "Intellistack (formerly Formstack)",
       "position": "Director of Engineering",
-      "startDate": "2024-06",
-      "endDate": "2026-06",
+      "startDate": "2024-06-02",
+      "endDate": "2026-05-02",
       "highlights": [
         "Led multiple engineering teams building Intellistack Streamline, a customer-facing, no-code business process automation platform built on Java microservices and a Next.js (React) frontend, taking it from concept to onboarding production customers in 18 months",
         "Partnered daily with product managers, both on my teams and across the org, to translate customer needs into roadmap and technical scope spanning both backend and frontend development",
@@ -37,8 +37,8 @@
     {
       "name": "Open Raven (acquired by Intellistack)",
       "position": "Senior Software Engineer / Technical Director",
-      "startDate": "2020-07",
-      "endDate": "2024-06",
+      "startDate": "2020-07-02",
+      "endDate": "2024-06-02",
       "highlights": [
         "Wrote Open Raven's first data scanner and grew it into a dedicated, fully remote team of 8 frontend and backend engineers, helping establish the DSPM (Data Security Posture Management) product category",
         "Built the only scanning solution for file and data stores across AWS, GCP, and Azure that ran entirely within the customer's own environment",
@@ -50,8 +50,8 @@
     {
       "name": "Tenable",
       "position": "Senior Software Engineer / Tech Lead",
-      "startDate": "2018-11",
-      "endDate": "2020-07",
+      "startDate": "2018-11-02",
+      "endDate": "2020-07-02",
       "summary": "As an engineer on the Platform Engineering team, worked on the core frameworks and services powering Tenable's cloud offering.",
       "highlights": [
         "Improved and maintained microservices and frameworks written in Groovy, Java, Kotlin, and Node, powering Tenable's cloud offering",
@@ -61,8 +61,8 @@
     {
       "name": "Skyward, a Verizon company",
       "position": "Lead Java Engineer",
-      "startDate": "2017-11",
-      "endDate": "2018-11",
+      "startDate": "2017-11-02",
+      "endDate": "2018-11-02",
       "summary": "Skyward built software to manage commercial UAV (drone) operations. Hired to lead the development team in adopting Agile practices, refactor the legacy codebase to enable faster deployment, and to mentor junior developers.",
       "highlights": [
         "Built the industry's first LAANC integration approved by the FAA, taking it from concept to certified production integration by collaborating directly with FAA counterparts to develop and validate their API endpoints",
@@ -74,8 +74,8 @@
     {
       "name": "Jama Software",
       "position": "Technical Lead",
-      "startDate": "2011-10",
-      "endDate": "2017-02",
+      "startDate": "2011-10-02",
+      "endDate": "2017-02-02",
       "highlights": [
         "Served as Technical Lead across multiple teams totaling 15 engineers, including leading the migration of Jama, a customer-facing SaaS product built on React, from a monolithic Java webapp to a service-oriented architecture, enabling faster, more independent releases, evaluating and designing service frameworks and building a Docker-based deployment model for both SaaS and on-premises installations",
         "Worked closely with engineering leaders and product managers throughout my tenure to scope, prioritize, and deliver features across the platform",
@@ -87,8 +87,8 @@
     {
       "name": "Agilivant",
       "position": "Architect (contract)",
-      "startDate": "2010-09",
-      "endDate": "2011-08",
+      "startDate": "2010-09-02",
+      "endDate": "2011-08-02",
       "summary": "First technical hire in this financial products start-up. Advising the founders on technology & platform strategy. Establishing development practices for technical hires. Creating hybrid cloud infrastructure with AWS for development and deployment.",
       "highlights": [
         "Hired and led a team of 2 engineers, establishing source control, CI, and collaboration environments for the development team",
@@ -100,38 +100,38 @@
     {
       "name": "Collaborative Software Initiative",
       "position": "Core Developer",
-      "startDate": "2010-01",
-      "endDate": "2010-08"
+      "startDate": "2010-01-02",
+      "endDate": "2010-08-02"
     },
     {
       "name": "Liberty Mutual Insurance Group",
       "position": "Technologist",
-      "startDate": "2007-04",
-      "endDate": "2010-01"
+      "startDate": "2007-04-02",
+      "endDate": "2010-01-02"
     },
     {
       "name": "ACS Government Solutions Group",
       "position": "Technical Architect",
-      "startDate": "2002-10",
-      "endDate": "2007-04"
+      "startDate": "2002-10-02",
+      "endDate": "2007-04-02"
     },
     {
       "name": "Association of American Medical Colleges",
       "position": "Systems Developer – Enterprise Apps",
-      "startDate": "2001-05",
-      "endDate": "2002-10"
+      "startDate": "2001-05-02",
+      "endDate": "2002-10-02"
     },
     {
       "name": "WebMD Corporation",
       "position": "Project Lead",
-      "startDate": "1999-01",
-      "endDate": "2001-01"
+      "startDate": "1999-01-02",
+      "endDate": "2001-01-02"
     },
     {
       "name": "Sapient Health Network (acquired by WebMD)",
       "position": "Senior Software Engineer",
-      "startDate": "1996-11",
-      "endDate": "1999-01"
+      "startDate": "1996-11-02",
+      "endDate": "1999-01-02"
     }
   ],
   "skills": [
