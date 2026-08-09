@@ -136,10 +136,6 @@
   ],
   "skills": [
     {
-      "name": "AI",
-      "keywords": ["Spring AI", "Codex", "Claude", "Cursor"]
-    },
-    {
       "name": "Backend",
       "keywords": ["Java / JVM languages", "Python", "Spring", "RDBMS (PostgreSQL, MySQL, Oracle)", "NoSQL (ElasticSearch)", "Redis"]
     },
@@ -149,7 +145,11 @@
     },
     {
       "name": "Architecture & Tooling",
-      "keywords": ["System Design", "API Design", "Microservices"]
+      "keywords": ["System Design", "API Design", "Microservices", "Distributed Systems", "Event-Driven Architecture"]
+    },
+    {
+      "name": "AI",
+      "keywords": ["Spring AI", "Codex", "Claude", "Cursor"]
     }
   ],
   "education": [
