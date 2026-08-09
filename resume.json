@@ -27,7 +27,7 @@
       "startDate": "2024-06",
       "endDate": "2026-05",
       "highlights": [
-        "Led multiple engineering teams building Intellistack Streamline, a customer-facing, no-code business process automation platform built on a Next.js (React) frontend, taking it from concept to onboarding production customers in 18 months",
+        "Led multiple engineering teams building Intellistack Streamline, a customer-facing, no-code business process automation platform built on Java microservices and a Next.js (React) frontend, taking it from concept to onboarding production customers in 18 months",
         "Partnered daily with product managers, both on my teams and across the org, to translate customer needs into roadmap and technical scope spanning both backend and frontend development",
         "Led the Data Fabric team, integrating 12 data source types such as RDS, API-driven, and FHIR-based EHR systems into a common format for the platform",
         "Led the Integrations team, connecting 15+ systems via an iPaaS for file, email, and event workflows",
