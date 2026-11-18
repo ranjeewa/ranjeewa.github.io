@@ -23,6 +23,12 @@
   },
   "work": [
     {
+      "name": "Vector Remote Care",
+      "position": "Staff Engineer",
+      "startDate": "2026-10-02",
+      "summary": "Vector Remote Care is a digital cardiac health company whose platform supports remote patient care for clinics, including cardiac device monitoring, patient engagement, and EHR integrations."
+    },
+    {
       "name": "Intellistack (formerly Formstack)",
       "position": "Director of Engineering",
       "startDate": "2024-06-02",
